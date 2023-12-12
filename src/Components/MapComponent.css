@@ -1,0 +1,90 @@
+.map-container {
+    /* position: relative; */
+    max-width: 100vh;
+    max-height: 100vh;
+    /* border: 2px solid black; */
+}
+
+.ol-scale-line {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: bold;
+    background-color: transparent !important;
+    --ol-partial-background-color: transparent;
+    z-index: 100;
+}
+
+.ol-mouse-position {
+    font-weight: bold;
+}
+
+.ol-zoom {
+    /* display: inline; */
+    /* z-index: 1000; */
+    left: 97vw;
+    top: 92vh;
+}
+
+.layer-switcher-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.layer-switcher {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.layer-switcher label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.layer-switcher input[type="radio"] {
+    margin-right: 5px;
+}
+
+.layer-switcher:hover {
+    display: block !important;
+}
+
+/* .mouse-position {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 4px 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.mouse-position::before {
+    content: 'Coordinates:';
+    font-weight: bold;
+    margin-right: 75px;
+}
+
+.mouse-position span {
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+.ol-mouse-position {
+    top: 5px;
+    right: 8px;
+    position: absolute;
+} */
